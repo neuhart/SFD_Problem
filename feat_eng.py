@@ -36,7 +36,7 @@ def get_season(in_datetime):
     assert isinstance(in_datetime, datetime), "Not a datetime object!"
     in_datetime = in_datetime.replace(year=Y)
     return next(season for season, (start, end) in seasons
-                if start <= in_datetime <= end)
+                if start <= in_datetime.date() <= end)
 
 def create_features(df):
     """
