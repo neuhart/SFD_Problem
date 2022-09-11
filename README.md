@@ -7,8 +7,12 @@
 The Seatte Fire Department Dataset contains 171M 911 dispatches (emergency calls) with several features such as location, datetime or address.
 The goal was to predict the number of hourly emergency calls for the year of 2019. 
 
+## Run Code
+
+To run replicate the results, please fork this repository and adapt the source path of the SFD dataset accordingly in the <a href="https://github.com/neuhart/SFD_Problem/blob/main/main.ipynb">main.ipynb</a> file.
+
 ## Data
-The main code is provided in the Jupyter Notebook <a href="https://github.com/neuhart/SFD_Problem/blob/main/main.ipynb">main.ipynb text</a>. <br>
+The main code is provided in the Jupyter Notebook <a href="https://github.com/neuhart/SFD_Problem/blob/main/main.ipynb">main.ipynb</a>. <br>
 The code is tested and runs both offline and in google collabs. Since requested, each step of the project is save in an individual file:<br>
 - <a href="https://github.com/neuhart/SFD_Problem/blob/main/Preprocessing.py">Preprocessing</a> <br>
 - <a href="https://github.com/neuhart/SFD_Problem/blob/main/feat_eng.py">Feature Engineering text</a><br>
