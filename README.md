@@ -9,7 +9,9 @@ The goal was to predict the number of hourly emergency calls for the year of 201
 
 ## Run Code
 
-To replicate the results, please fork this repository and adapt the source path of the SFD dataset accordingly in the <a href="https://github.com/neuhart/SFD_Problem/blob/main/main.ipynb">main.ipynb</a> file.
+To replicate the results, please fork this repository and adapt the source path of the SFD dataset accordingly in the <a href="https://github.com/neuhart/SFD_Problem/blob/main/main.ipynb">main.ipynb</a> file. <br>
+Update: For a more object oriented implementation go to branch <a href="https://github.com/neuhart/SFD_Problem/tree/refactor">refactor</a> file. <br>
+
 
 ## Data
 The main code is provided in the Jupyter Notebook <a href="https://github.com/neuhart/SFD_Problem/blob/main/main.ipynb">main.ipynb</a>. <br>
@@ -32,7 +34,7 @@ I used the sklearn pipeline framework to create a pipeline for additional prepro
 ## Results
 
 As evaluation metric, I used both the R2-score and the MSE. <br>
-Evaluated on the training data (random subset of 100k instances), I obtained a MSE of 15.87 and a R2 score of 0.387. <br>
+Evaluated on the training data, I obtained a MSE of 15.87 and a R2 score of 0.387. <br>
 Evaluated on the test data (2019), I obtained a MSE of 17.54 and a R2 score of 0.325.
 
 - Training MSE Loss: 15.872172597897624 
