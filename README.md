@@ -10,8 +10,7 @@ The goal was to predict the number of hourly emergency calls for the year of 201
 ## Run Code
 
 To replicate the results, please fork this repository and adapt the source path of the SFD dataset accordingly in the <a href="https://github.com/neuhart/SFD_Problem/blob/main/main.ipynb">main.ipynb</a> file. <br>
-Update: For a more object oriented implementation go to branch <a href="https://github.com/neuhart/SFD_Problem/tree/refactor">refactor</a> file. <br>
-
+Update: For a more object oriented implementation go to branch <a href="https://github.com/neuhart/SFD_Problem/tree/refactor">refactor</a>. <br>
 
 ## Data
 The main code is provided in the Jupyter Notebook <a href="https://github.com/neuhart/SFD_Problem/blob/main/main.ipynb">main.ipynb</a>. <br>
